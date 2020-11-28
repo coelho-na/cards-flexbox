@@ -1,0 +1,21 @@
+{
+  "name": "cards-flexbox",
+  "version": "1.0.0",
+  "description": "A Responsive Card with flexbox and hover effect (HTLM/CSS)",
+  "author": "coelho-na",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-mode": "^1.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^5.0.0"
+  }
+}
