@@ -1,0 +1,71 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  gap: 1.5rem;
+  padding: 3rem;
+  @include respond(tabletOrHigh) {
+    padding-top: 50%;
+    transform: translateY(-50%);
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 300px;
+  max-width: 450px;
+  background: #fff;
+  overflow: hidden;
+  color: #000000;
+  border-radius: 5px;
+  box-shadow: 3px 2px 14px rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    transform: translateY(-1rem);
+    box-shadow: 2px 3px 18px rgba(255, 255, 255, 0.4);
+  }
+
+  &__image {
+    flex: 0 0 120px; // flex grow, flex shrink, flex basis
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100%;
+  }
+
+  &__title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  &__snippet {
+    margin-bottom: 0.5rem;
+  }
+
+  &__readmore {
+    margin-top: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+// link back to home page
+.home-page {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+  color: #fff;
+  font-weight: 700;
+}
