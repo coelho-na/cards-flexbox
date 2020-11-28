@@ -4,7 +4,7 @@
 
 <p align='center'> Demo on: </p>
 <p align='center'>
-  <a href='https://sad-fermi-8cac15.netlify.app/' target='_blank'>
+  <a href='https://sad-fermi-8cac15.netlify.app/' target='blank'>
     <img src="https://img.shields.io/badge/netlify%20-00C7B7.svg?&style=for-the-badge&logo=netlify&logoColor=white" />
   </a>
 </p>
